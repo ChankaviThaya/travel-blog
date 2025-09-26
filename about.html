@@ -1,27 +1,130 @@
-<html>
-    <head>
-        <title>Chankavi Thayananthan</title>
-    </head>
-    <body>
-        <h1>Traveler Introduction Page</h1>
-        <h1>ABOUT ME</h1>
-       <p>I am Chankavi Thayananthan who always want to travel different cities in the world.</p>
-       <img src="D:\Users\thayana-ec21079\Downloads\EC_2021_079\travel-blog\ProfilePhoto.jpg">
-       <br>
-       <h3>List Of Places I Want To Visit</h3>
-       <ul>
-        <li>Switzerland</li>
-        <li>London</li>
-        <li>Japan</li>
-        <li>Paris</li>
-        <li>Maldives</li>
-       </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chankavi Thayananthan</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff5f5; /* soft maroon-tinted background */
+      color: #3b0a0a; /* deep maroon text */
+    }
 
-       <p>CONTACT INFORMATION</p>
-       <ol>
-       <li>Mobile No : 0743428278</ol>li>
-       <li>Email Add : chankavithaya@@gmail.com</li>
-       </ol>
+    header {
+      background: maroon;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
 
-    </body>
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(128, 0, 0, 0.3);
+    }
+
+    .about {
+      text-align: center;
+    }
+
+    .about img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 5px solid maroon;
+      margin: 1rem 0;
+    }
+
+    h2 {
+      color: maroon;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      list-style: square;
+      padding-left: 1.5rem;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .contact {
+      margin-top: 1.5rem;
+      padding: 1rem;
+      background: #fbe9e9;
+      border-left: 6px solid maroon;
+      border-radius: 8px;
+    }
+
+    .contact a {
+      color: maroon;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    nav {
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      background: maroon;
+      padding: 0.6rem 1.2rem;
+      margin: 0 0.5rem;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background: #a52a2a; /* lighter maroon */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Traveler Introduction Page</h1>
+  </header>
+
+  <div class="container">
+    <div class="about">
+      <h2>About Me</h2>
+      <p>I am Chankavi Thayananthan who always want to travel different cities in the world.</p>
+      <img src="ProfilePhoto.jpg" alt="Profile Photo">
+    </div>
+
+    <h2>My Travel Interests</h2>
+    <ul>
+      <li>Mountain hiking</li>
+      <li>Exploring cultural festivals</li>
+      <li>Trying local foods</li>
+      <li>Photography</li>
+    </ul>
+
+    <div class="contact">
+      <h2>Contact Information</h2>
+      <p>📱 Mobile: <a href="tel:+94743428278">+94 74 342 8278</a></p>
+      <p>📧 Email: <a href="mailto:chankavithaya@gmail.com">chankavithaya@gmail.com</a></p>
+    </div>
+
+    <nav>
+      <a href="about.html">About Me</a>
+      <a href="destinations.html">My Travel Stories</a>
+    </nav>
+  </div>
+</body>
 </html>
